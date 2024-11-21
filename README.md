@@ -1,21 +1,38 @@
-Agent Doc: Intelligent Document Assistant 📂🤖
+*Agent Doc: Intelligent Document Assistant 📂🤖*
+
 Agent Doc is a cutting-edge, AI-powered document assistant app that helps you efficiently manage and interact with your PDFs. Designed with simplicity and intelligence in mind, Agent Doc allows users to upload, process, and chat with documents like never before. By integrating state-of-the-art embeddings, natural language processing, and vector search technology, Agent Doc offers seamless document management with real-time insights, making your work smarter and faster. 🚀
 
-Key Features 🔑:
+
+*Key Features 🔑:*
+
 📥 Easy PDF Uploads: Upload any PDF document effortlessly and view a live preview of the content.
+
 ⚡ Fast Embedding Generation: Instantly create document embeddings to enhance search and retrieval capabilities.
+
 💬 AI Chatbot Interaction: Chat with your document! Ask questions and get context-driven answers based on the content of the uploaded PDFs.
+
 🧠 Intelligent Search: Harness the power of embeddings for efficient, semantic document search and retrieval.
+
 🌍 Modern UI: Enjoy an intuitive, minimalistic interface built for a smooth user experience across devices.
+
 🔒 Local Deployment: Runs entirely on your local machine with technologies like Qdrant and Llama 3.2, ensuring full control over your data.
-Tech Stack 🛠️:
+
+*Tech Stack 🛠️:*
+
 LangChain: Powers the backend orchestration, enabling seamless management of document embeddings and interactions.
+
 Qdrant: A scalable vector database, used to store and manage document embeddings for quick retrieval.
+
 BGE Embeddings: A reliable source for creating high-quality semantic embeddings, ensuring accuracy in document processing and search.
+
 LLaMA 3.2: The advanced language model that powers intelligent interactions with documents, delivering precise and context-rich responses.
+
 Streamlit: The framework for building the app's interactive, responsive web interface.
-Directory Structure 📁:
+
+*Directory Structure 📁:*
+
 Copy code
+
 agent_doc/
 │── assets/
 │   └── logo.png
@@ -23,10 +40,12 @@ agent_doc/
 ├── chatbot.py
 ├── embeddings.py
 ├── requirements.txt
-Getting Started 🚀:
+
+*Getting Started 🚀:*
+
 Follow these easy steps to get Agent Doc running on your machine:
 
-Clone the Repository:
+*Clone the Repository:*
 
 bash
 Copy code
@@ -35,7 +54,9 @@ cd Agent-Doc
 Set Up a Virtual Environment:
 
 Using venv:
+
 On Windows: python -m venv venv then venv\Scripts\activate
+
 On macOS/Linux: python3 -m venv venv then source venv/bin/activate
 Using Anaconda:
 bash
